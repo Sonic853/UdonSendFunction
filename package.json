@@ -1,0 +1,21 @@
+{
+    "name": "com.sonic853.udon.sendfunction",
+    "version": "1.0.3",
+    "displayName": "Sonic853 - UdonSendFunction",
+    "description": "Send Custom Event",
+    "unity": "2022.3",
+    "homepage": "https://github.com/Sonic853/UdonSendFunction",
+    "documentationUrl": "https://github.com/Sonic853/UdonSendFunction",
+    "changelogUrl": "https://github.com/Sonic853/UdonSendFunction/releases",
+    "licensesUrl": "https://github.com/Sonic853/UdonSendFunction/blob/master/LICENSE",
+    "license": "LGPL-3.0-or-later",
+    "keywords": [],
+    "author": {
+      "name": "Sonic853",
+      "email": "sonic853@qq.com",
+      "url": "https://github.com/Sonic853"
+    },
+    "legacyFolders": {
+      "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
+    }
+  }
