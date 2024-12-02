@@ -4,7 +4,7 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-namespace UdonLab.Toolkit
+namespace Sonic853.Udon.SendFunction
 {
     public class UdonSendFunctionWithInt : UdonSendFunctionValue
     {

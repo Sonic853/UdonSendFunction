@@ -1,11 +1,12 @@
 ﻿
 using System;
+using Sonic853.Udon.ArrayPlus;
 using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-namespace UdonLab.Toolkit
+namespace Sonic853.Udon.SendFunction
 {
     public class UdonPlayerLeftSender : UdonCoreSender
     {

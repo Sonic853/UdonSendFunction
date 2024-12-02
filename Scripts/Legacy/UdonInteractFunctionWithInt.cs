@@ -6,7 +6,7 @@ using VRC.SDKBase;
 using VRC.Udon;
 using VRC.Udon.Common.Interfaces;
 
-namespace UdonLab.Toolkit
+namespace Sonic853.Udon.SendFunction
 {
     public class UdonInteractFunctionWithInt : UdonSharpBehaviour
     {
