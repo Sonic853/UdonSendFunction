@@ -17,5 +17,8 @@
     },
     "legacyFolders": {
       "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
+    },
+    "vpmDependencies": {
+      "com.sonic853.udonlab.arrayplus": "2.x.x"
     }
   }
