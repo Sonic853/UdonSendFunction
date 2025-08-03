@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
-  m_Name: UdonPlayerLeftSender
+  m_Name: UdonPlayerCollisionEnterSender
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 335941abdce0fe84d9dd358322000cb3, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 036f4a4e81a437d448d6de1ecab5a4b2, type: 2}
   udonAssembly: 
   assemblyError: 
-  sourceCsScript: {fileID: 11500000, guid: 73869e4c7fee5cf4c92ed5f96ef2dbd8, type: 3}
+  sourceCsScript: {fileID: 11500000, guid: c3285c302ec87094b883caf8fc16c026, type: 3}
   scriptVersion: 2
   compiledVersion: 2
   behaviourSyncMode: 0
   hasInteractEvent: 0
-  scriptID: 1631684238232556321
+  scriptID: 649691543340622329
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 

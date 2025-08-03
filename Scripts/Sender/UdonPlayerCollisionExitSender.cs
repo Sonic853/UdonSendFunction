@@ -1,6 +1,4 @@
 ﻿
-using System;
-using Sonic853.Udon.ArrayPlus;
 using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
@@ -8,9 +6,9 @@ using VRC.Udon;
 
 namespace Sonic853.Udon.SendFunction
 {
-    public class UdonPlayerJoinSender : UdonCorePlayerSender
+    public class UdonPlayerCollisionExitSender : UdonCorePlayerSender
     {
-        public override void OnPlayerJoined(VRCPlayerApi player)
+        public override void OnPlayerCollisionExit(VRCPlayerApi player)
         {
             OnPlayerHit_VRCPlayerApi = player;
             OnPlayerHit();
