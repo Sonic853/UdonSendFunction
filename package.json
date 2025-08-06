@@ -1,6 +1,6 @@
 {
     "name": "com.sonic853.udon.sendfunction",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "displayName": "Sonic853 - UdonSendFunction",
     "description": "Send Custom Event",
     "unity": "2022.3",

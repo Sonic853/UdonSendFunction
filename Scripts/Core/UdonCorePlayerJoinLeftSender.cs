@@ -56,6 +56,7 @@ namespace Sonic853.Udon.SendFunction
         {
             var player = Join_OnPlayerHit_VRCPlayerApi;
             var _playerName = player.displayName;
+            if (Join_isLocalOnly && !player.isLocal) { return; }
             if (Join_isOnce
             && Join_isInteracted)
             {
@@ -156,6 +157,7 @@ namespace Sonic853.Udon.SendFunction
         {
             var player = Left_OnPlayerHit_VRCPlayerApi;
             var _playerName = player.displayName;
+            if (Left_isLocalOnly && !player.isLocal) { return; }
             if (Left_isOnce
             && Left_isInteracted)
             {

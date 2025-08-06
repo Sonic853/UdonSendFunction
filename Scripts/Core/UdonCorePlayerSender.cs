@@ -40,9 +40,9 @@ namespace Sonic853.Udon.SendFunction
         public VRCPlayerApi OnPlayerHit_VRCPlayerApi;
         public virtual void OnPlayerHit()
         {
-            Debug.Log("UdonCorePlayerSender.OnPlayerHit");
             var player = OnPlayerHit_VRCPlayerApi;
             var _playerName = player.displayName;
+            if (isLocalOnly && !player.isLocal) { return; }
             if (isOnce
             && isInteracted)
             {
